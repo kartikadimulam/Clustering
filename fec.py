@@ -5,7 +5,7 @@ import numpy as np
 
 
 class FluxEquilibriumClustering:
-    """Flux Equilibrium Clustering (FEC), following the handout."""
+
 
     def __init__(self, k: int = 10, sigma: Optional[float] = None, alpha: float = 0.5,
                  T: int = 25, epsilon: float = 1e-4, beta: Optional[float] = None) -> None:
